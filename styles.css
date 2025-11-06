@@ -1,0 +1,13 @@
+.box{
+    background-color: rgb(247, 32, 32);
+    /* padding: gaps between something */
+    padding: 50px;
+    /* margin: gap outside */
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
