@@ -1,5 +1,5 @@
 .box{
-    background-color: rgb(247, 32, 32);
+    background-color: white;
     /* padding: gaps between something */
     padding: 50px;
     /* margin: gap outside */
@@ -9,8 +9,6 @@
     text-align: center;
     animation-name: myAnimation;
     animation-duration: 4s;
-    resize: both;
-  overflow: ellipsis;
 }
 
 
@@ -21,5 +19,7 @@ body{
 @keyframes myAnimation{
     from {background-color: white;}
     to {background-color: silver;}
+    to {background-color: white;}
 }
+
 
