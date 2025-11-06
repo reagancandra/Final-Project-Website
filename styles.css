@@ -7,7 +7,19 @@
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    resize: both;
+  overflow: ellipsis;
 }
+
+
 body{
     background-color: aquamarine;
 }
+
+@keyframes myAnimation{
+    from {background-color: white;}
+    to {background-color: silver;}
+}
+
