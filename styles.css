@@ -9,6 +9,7 @@
     text-align: center;
     animation-name: myAnimation;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -17,9 +18,10 @@ body{
 }
 
 @keyframes myAnimation{
-    from {background-color: white;}
-    to {background-color: silver;}
-    to {background-color: white;}
+    0% {background-color: white;}
+    50% {background-color: silver;}
+    100% {background-color: white;}
 }
+
 
 
